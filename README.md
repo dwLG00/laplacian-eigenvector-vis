@@ -3,4 +3,4 @@ The Laplacian matrix of a graph is a useful matrix. We can interpret it as an op
 
 The eigenvectors of Laplacian matrices are also useful. Because the Laplacian is symmetric and positive semi-definite, its eigenvectors are real and its eigenvalues are non-negative. If we ignore the null eigenvector $\langle 1, \dots, 1\rangle$, we can take the eigenvector corresponding to the second-smallest eigenvalue (the [Fiedler vector](https://en.wikipedia.org/wiki/Algebraic_connectivity#Fiedler_vector)); quantizing the coefficients of this eigenvector to -1 or 1 gives us a good approximation of the [sparsest cut](https://en.wikipedia.org/wiki/Cut_(graph_theory)#Sparsest_cut) of the graph. Laplacian matrix eigenvectors also appear implicitly as a basis in graph neural networks.
 
-This repo consists of a single three.js scene for constructing graphs and visualizing their eigenvectors.
+This repo consists of a single three.js scene for constructing graphs and visualizing their eigenvectors. A running instance is [hosted on my site](https://dylwall.com/projects/lapeigvis).
